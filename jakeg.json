@@ -38,37 +38,21 @@
             ],
             "appPermissions": {
                 "entitlements": [
-                    "com.apple.security.application-groups",
-                    "com.apple.developer.siri"
+                    "com.apple.developer.team-identifier",
+                    "com.apple.developer.ubiquity-kvstore-identifier",
+                    "com.apple.developer.icloud-services",
+                    "com.apple.developer.icloud-container-environment",
+                    "com.apple.developer.icloud-container-identifiers",
+                    "com.apple.developer.icloud-container-development-container-identifiers",
+                    "com.apple.developer.ubiquity-container-identifiers"
                 ],
                 "privacy": {
-#                    "NSPhotoLibraryUsageDescription": "App saves photos to your Photo Library.",
-#                    "NSCameraUsageDescription": "App uses camera to take photos.",
-#                    "NSMicrophoneUsageDescription": "App uses microphone to record video."
+                    "NSFaceIDUsageDescription": "Aidoku needs FaceID permissions for user-defined settings",
+                    "NSPhotoLibraryUsageDescription": "Aidoku needs permission to save pages in your photo library",
+                    "NSCameraUsageDescription": "App uses camera to take photos.",
+                    "NSMicrophoneUsageDescription": "App uses microphone to record video."
                 }
             }
         }
- #   ],
- #   "news": [
- #       {
- #           "title": "New Feature Announcement",
- #           "identifier": "new_feature",
- #           "caption": "Introducing a new feature in AltStore!",
- #           "date": "2023-03-15",
- #           "tintColor": "#5CA399",
- #           "imageURL": "https://example.com/new_feature_image.png",
- #           "notify": true,
- #           "url": "https://example.com/new_feature_details"
-#        },
-#        {
-#            "title": "App Update Available",
-#            "identifier": "app_update",
-#            "caption": "An update is available for My Example App.",
-#            "date": "2023-03-10T10:00:00-07:00",
-#            "tintColor": "#3660A2",
-#            "imageURL": "https://example.com/app_update_image.png",
-#            "notify": false,
-#            "appID": "com.example.myapp"
-#        }
     ]
 }
