@@ -7,7 +7,7 @@
     "website": "https://example.com",
     "tintColor": "#4185A9",
     "featuredApps": [
-        "com.jakeg.aidoku",
+        "xyz.skitty.Aidoku",
     ],
     "apps": [
         {
